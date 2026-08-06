@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# Auto-review must never pause on an active branch. A paused review reports its
+# own check as "pass" with zero reviews at the head, which greens a review gate
+# on a PR nobody read — the failure mode the gate exists to prevent. 0 disables
+# the commit-count pause (schema default is 5).
+reviews:
+  auto_review:
+    auto_pause_after_reviewed_commits: 0
