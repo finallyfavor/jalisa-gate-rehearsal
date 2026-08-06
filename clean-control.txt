@@ -2,3 +2,4 @@ gating clean-control fixture
 lost-delivery fixture: pushed into the webhook gap
 lost-delivery fixture v2: pushed into a CONFIRMED-LIVE webhook gap
 gap-fixture-attempt-1 2026-08-06T02:13:04Z
+gap-fixture-attempt-2 2026-08-06T02:14:12Z
