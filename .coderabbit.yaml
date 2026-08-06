@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# Rehearsal-only causal isolation: no ambient review. The fixed label is added
+# by the Jalisa GitHub App only after the proof ledger posts its exact-head lease.
+reviews:
+  auto_review:
+    enabled: false
+    labels:
+      - jalisa-mediated-review
+    auto_pause_after_reviewed_commits: 0
