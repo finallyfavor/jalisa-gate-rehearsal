@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# Rehearsal-only isolation: ambient review is disabled so each review starts
+# only after the repository OWNER posts the explicit full-review command.
+reviews:
+  auto_review:
+    enabled: false
+    auto_pause_after_reviewed_commits: 0
