@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# Rehearsal-only isolation: ambient review is disabled so the production
+# mediated command is the only event that can start this control's review.
+# Manual @coderabbitai review commands remain enabled by CodeRabbit contract.
+# The kit's remaining canonical auto-pause setting is copied exactly below.
+reviews:
+  auto_review:
+    enabled: false
+    auto_pause_after_reviewed_commits: 0
