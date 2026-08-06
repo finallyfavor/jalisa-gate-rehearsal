@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# Rehearsal-only isolation: ambient review and PR-description summaries are
+# disabled. Each review starts only from the repository OWNER's exact command.
+reviews:
+  high_level_summary: false
+  auto_review:
+    enabled: false
+    description_keyword: ""
+    auto_pause_after_reviewed_commits: 0
